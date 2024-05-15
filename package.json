@@ -17,7 +17,9 @@
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.10.2",
     "react-router-dom": "^6.23.0",
+    "react-scroll": "^1.9.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.164.1"
