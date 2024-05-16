@@ -18,8 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -38,7 +37,7 @@ const Contact = () => {
         {
           from_name: form.name,
           to_name: "Abdus Samad",
-          from_email: form.email,
+          from_email: form.email, // Use sender's email from the form
           to_email: "abdussamada11d8@gmail.com",
           message: form.message,
         },
